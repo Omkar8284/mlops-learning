@@ -16,3 +16,4 @@ __pycache__/
 *.pkl
 *.h5
 
+venv/
