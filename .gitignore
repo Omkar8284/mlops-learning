@@ -1,0 +1,19 @@
+# Python ignores
+__pycache__/
+*.pyc
+.env
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+
+# Model artifacts (optional)
+*.pkl
+*.h5
+
+# Logs
+*.log
+
