@@ -3,7 +3,6 @@ import numpy as np
 
 model = joblib.load("house_price_model.pkl")
 
-# Example prediction
 area = 1800
 bedrooms = 3
 
