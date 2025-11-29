@@ -6,7 +6,7 @@ model = joblib.load("house_price_model.pkl")
 
 app = FastAPI()
 
-@app.get("/")
+@app.get("/") 
 def root():
     return {"message": "House Price Prediction API is running!"}
 
