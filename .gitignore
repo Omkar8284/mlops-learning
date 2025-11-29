@@ -1,19 +1,18 @@
-# Python ignores
+# Virtual environment
+venv/
+.env/
+
+# Python cache
 __pycache__/
 *.pyc
-.env
-.venv/
 
-# Jupyter Notebook
-.ipynb_checkpoints/
-
-# OS files
+# OS junk
 .DS_Store
-
-# Model artifacts (optional)
-*.pkl
-*.h5
 
 # Logs
 *.log
+
+# Model files (optional)
+*.pkl
+*.h5
 
